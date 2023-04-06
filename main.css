@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 112.5%/1.625 -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.icon {
+    margin: 10px 22px;
+    float: left;
+}
+
+.menu {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 900px;
+    padding-top: 10px;
+}
+
+.menu li:not(:last-child) {
+    margin-right: 1.75rem;
+}
+
+ul li {
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.support {
+    border: orange 1.5px solid;
+    font-size: 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: 0.1s;
+    padding: 6px;
+}
+.support:hover {
+    background-color: orange;
+}
+a {
+    color: rgb(32, 35, 41);
+    text-decoration: none;
+}
+.header {
+    margin-top: 71px;
+    color: rgb(32, 35, 41);
+    border: none;
+    font-weight: 900;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-weight: 800;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+div {
+    display: flex;
+}
+
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: rgb(32, 35, 41);
+}
+
+img {
+    border-radius: 6px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+:not(svg) {
+    transform-origin: 0 0;
+}
+
+svg {
+    fill: rgb(51, 51, 51);
+}
+
+.lgTwHp .hero-image svg {
+    width: 100%;
+    height: 100%;
+    fill: rgb(245, 245, 245);
+    z-index: -2;
+}
+
+.lgTwHp {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(50vh - 60px);
+    text-align: center;
+    position: relative;
+}
+
+.card {
+    width: 590px;
+    height: 220px;
+    display: flex;
+    overflow: hidden;
+    background: rgb(60, 62, 68);
+    border-radius: 0.5rem;
+    margin: 0.75rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    color: rgb(245, 245, 245);
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.gray {
+    color: #abb2bf;
+}
+
+.other {
+    background: rgb(32, 35, 41);
+}
+
+.other_child {
+    /*margin: 0.25rem 0.5rem;*/
+    margin: 0;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(158, 158, 158);
+    display: flex;
+    /*-webkit-box-pack: center;*/
+    justify-content: center;
+    /*-webkit-box-align: center;*/
+    align-items: center;
+    /*flex-flow: column nowrap;*/
+    /*position: relative;*/
+    background: rgb(32, 35, 41);
+    min-height: calc(200px);
+    width: 100%;
+}
+
+
